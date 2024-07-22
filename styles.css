@@ -1,0 +1,56 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url(pictures/mushrooms-8058299_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+nav {
+  width: 100vw;
+  padding-top: 10px;
+
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+button {
+  margin-top: 2rem;
+  border-radius: 20px;
+  width: 12%;
+  height: 40px;
+  background-color: rgb(120, 194, 204);
+  border-color: cadetblue;
+  color: aliceblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+}
+
+.header {
+  width: 100%;
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 4px 2px 0px rgba(0, 0, 0, 6);
+  padding-top: 8%;
+
+  flex-direction: column;
+}
+
+.header1 {
+  padding: 0;
+  margin: 0;
+  padding-top: 10%;
+}
+
+.header2 {
+  margin: 0;
+}
